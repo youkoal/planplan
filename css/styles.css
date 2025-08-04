@@ -1,0 +1,59 @@
+
+    body { font-family: Arial, sans-serif; padding: 10px; background: #f2f2f2; position: relative; }
+    h1 { text-align: center; }
+    .tabs button {
+        padding: 10px 20px;
+        margin: 5px;
+        font-weight: bold;
+        cursor: pointer;
+    }
+    .tabcontent { display: none; }
+    table {
+        width: 100%;
+        border-collapse: collapse;
+        margin-top: 10px;
+    }
+    th, td {
+        border: 1px solid #ccc;
+        padding: 8px;
+        text-align: left;
+        vertical-align: middle;
+    }
+    tr.checked {
+        text-decoration: line-through;
+        opacity: 0.6;
+    }
+    img {
+        width: 50px;
+        height: 50px;
+    }
+    .counter {
+        margin-top: 10px;
+        font-weight: bold;
+        font-size: 1.1em;
+    }
+    .search-bar {
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    #planplanVolant {
+        
+        /* width: 150px;
+        height: 150px;*/
+        
+        /*top:500px;
+        left: 500px;
+        scale: 3 !important;*/
+        position : fixed !important;
+        width: : 100vw !important;
+        height: 100vh !important;
+
+    }
+    #img_du_planplanVolant {
+        visibility: hidden;
+        background-color: aquamarine;
+        position : fixed !important;
+        scale: 3 !important;
+
+    }
